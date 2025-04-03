@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  airline-ticketing-spring:
+    image: rishdyno/airline-rishiraj-spring
+    container_name: airline-rishi-springboot
+    ports:
+      - "8080:8080"
