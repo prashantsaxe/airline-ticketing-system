@@ -14,7 +14,7 @@ import java.util.List;
 public class Booking {
 
 
-    private String bookingId; // Unique identifier for the booking (generated at booking time)
+    private String bookingId; // Unique identifier for the booking (generated at booking time
     private String bookingDate; // The date on which
 
     private List<Seat> bookedSeats; // List of seats booked under this booking
