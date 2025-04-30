@@ -8,7 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// This controller provides API endpoints for managing flights, including adding, retrieving, updating, and deleting flights.
+// It uses Swagger annotations for API documentation and integrates with the FlightService to handle business logic.
 @Api(tags = "Flight Management API", description = "API for managing flights including adding, retrieving, updating, and deleting flights.")
 @RestController
 @RequestMapping("/api/v1/flights")

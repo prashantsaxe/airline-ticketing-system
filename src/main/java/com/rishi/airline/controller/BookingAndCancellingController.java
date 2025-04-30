@@ -9,7 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-// import io.swagger.annotations.Api;
+// This controller provides API endpoints for booking and cancelling flight tickets.
+// It uses Swagger annotations for API documentation and integrates with the BookingAndCancellingService to handle business logic.
 @Api(tags = "Booking and Cancellation API", description = "API for booking and cancelling flight tickets.")
 @RestController
 @RequestMapping("/api/v1/bookings")
