@@ -9,7 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// This controller provides an API endpoint for searching available flights based on source, destination, and date.
+// It uses Swagger annotations for API documentation and integrates with the FlightSearchService to process requests.
 @Api(tags = "Flight Search API", description = "API for searching available flights based on source, destination, and date.")
 @RestController
 @RequestMapping("/api/v1/flights")
