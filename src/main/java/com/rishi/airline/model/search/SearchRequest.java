@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
+// search request model class
+// This class is used to represent the search request for flights
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

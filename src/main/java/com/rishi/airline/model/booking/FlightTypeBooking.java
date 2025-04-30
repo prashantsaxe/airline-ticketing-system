@@ -12,5 +12,5 @@ import java.util.List;
 public class FlightTypeBooking {
 
     private String flightType; // e.g., "A320" or "A380"
-    private List<FlightNumberBooking> flightNumberBookings; // List of flights and their respective bookings
+    private List<FlightNumberBooking> flightNumberBookings; // List of flights and their respective booking
 }
